@@ -1,6 +1,7 @@
 # HelloAngularCroppieZoom
 
 This project is based on [HelloAngularCroppie](https://github.com/milanhlinak/hello-angular-croppie/blob/master/README.md) compatible with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.1.
+
 It contains a devDependency with Croppie @types and allows to change zoom level programmatically 
 
 ## Development server
