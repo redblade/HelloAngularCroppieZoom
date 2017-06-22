@@ -1,0 +1,10 @@
+<div class="container">
+  <h1>
+    {{title}}
+  </h1>
+  <app-image-crop [zoom]="myZoom" [imageUrl]="inputImage" [croppieOptions]="croppieOptions" (result)="onResult($event)"></app-image-crop>
+
+  <button (click)="doZoom(0.1)">Click to zoom out</button>
+  <button (click)="doZoom(1)">Click to zoom in</button>
+  <button (click)="doZoom(2)">Click to zoom in in</button>
+</div>
